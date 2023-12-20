@@ -1,0 +1,43 @@
+mytuple = ('cse','eee','ece','it')
+print(mytuple[-2])
+
+if 'ece2' in mytuple:
+    print('yes')
+else:
+    print('no')     
+
+x = ("apple", "banana", "cherry")
+y = list(x)
+y.remove('cherry')
+x = tuple(y)
+
+print(x)
+
+thistuple = ("apple", "banana", "cherry")
+y = ("orange",)
+thistuple += y
+
+print(thistuple)
+
+
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+
+(green, yellow, *red) = fruits
+
+print(green)
+print(yellow)
+print(red)
+
+for x in fruits:
+    if x in 'raspberry':
+        print('red exists')
+    else:
+        print('not exist')    
+
+
+
+fruits = (1, 4,6)
+tuple = ('w','e','l')
+mytuple += tuple+fruits
+print(mytuple)
+print(mytuple.index('eee'))
