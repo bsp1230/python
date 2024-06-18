@@ -9,5 +9,8 @@ collist = mydb.list_collection_names()
 mylist = [{ "name": "John"}
 ]
 
+
+
+
 # x = mycol.insert_many(mylist)
 # y = mycol.find_one()
